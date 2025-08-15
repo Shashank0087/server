@@ -1,0 +1,200 @@
+cooldown: 3600
+one_time: true
+auto_armor: false
+permission_required: true
+clear_inventory: false
+save_original_items: true
+allow_placeholders_on_original_items: false
+display:
+  default:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&fThis is a description of the kit.'
+    - ''
+    - '&7Edit it on the &c%kit_name%.yml &7file'
+    - '&7or using &c/kit edit %kit_name%'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: STONE_SWORD
+    preview_slot: 0
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: STONE_AXE
+    preview_slot: 1
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: STONE_HOE
+    preview_slot: 2
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: STONE_PICKAXE
+    preview_slot: 3
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: GOLDEN_SHOVEL
+    preview_slot: 4
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: CHAINMAIL_HELMET
+    preview_slot: 5
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: CHAINMAIL_CHESTPLATE
+    preview_slot: 6
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: CHAINMAIL_LEGGINGS
+    preview_slot: 7
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: CHAINMAIL_BOOTS
+    preview_slot: 8
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: COOKED_PORKCHOP
+      amount: 64
+    preview_slot: 9
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: BIRCH_LOG
+      amount: 64
+    preview_slot: 10
+  '12':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: OAK_LOG
+      amount: 64
+    preview_slot: 11
+  '13':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: WRITTEN_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: BOOK_SIGNED
+        title: PIXALBYTE
+        author: Oggy_bhaiya
+        pages:
+        - '"1. To set your base spawn use /sethome and give it some name for example
+          /sethome Oggy''s house\n.\n2. Because of sethome when you teleported to
+          survival spawn use /home and you are teleported to your home\n       NEXT
+          PAGE"'
+        - '"3. If you want to teleport at random place not on ours Spawn then hit
+          RCheckout village otherwise hit Checkout villager\n4. Ours land claim tool
+          is Goolden shovel and to check who clamed the land then use Stick.\n        NEXT
+          PAGE\n       "'
+        - '"5. If you want to tp your friend use /tpahere username of your friend.\n\n6.
+          If you want to go to the spawn the use command /spawn.\n\n       NEXT PAGE
+          \n"'
+        - '"7. Remember when you teleport to the spawn location and you want to go
+          to you home then do not click on Checkout villager.\n\n8. Here is economy
+          system also in which you can buy items and sell items to get rich to access
+          shop use /shop \n        NEXT PAGE"'
+        - '"9.If you have any other problems and questions about our commands then
+          visit our Discord channel \n\n10. For more update Join Us on Discord.\n\n    😊
+          THANKS YOU 😊\n"'
+        resolved: true
+    preview_slot: 12
+  '14':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: BOW
+    preview_slot: 13
+  '15':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: ARROW
+      amount: 64
+    preview_slot: 14
+  '16':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: CARROT_ON_A_STICK
+    preview_slot: 15
+  '17':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Cash-Note ","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"green"},{"text":"(Right-Click)","bold":false,"italic":false,"color":"gray"}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"Value:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"light_purple"},{"text":"
+          $100.00","italic":false}]}'
+        - '{"text":"","extra":[{"text":"Signer:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"light_purple"},{"text":"
+          Oggy_bhaiya","italic":false}]}'
+        custom-model-data:
+          ==: CustomModelData
+          floats:
+          - 0.0
+          flags: []
+          strings: []
+          colors: []
+        enchants:
+          minecraft:unbreaking: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        Damage: 0
+        custom: H4sIAAAAAAAA/+NiYGBkYEtyLkpMK2FkY+BMck4szvDLL0l1iGSAAADcMN8JIgAAAA==
+    preview_slot: 16
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

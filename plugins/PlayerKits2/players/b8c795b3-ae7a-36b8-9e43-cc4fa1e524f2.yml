@@ -1,0 +1,10 @@
+name: rtxshubh
+kits:
+  Starter:
+    cooldown: 1750408857963
+    one_time: true
+    bought: false
+  ELITE:
+    cooldown: 1750842670748
+    one_time: false
+    bought: false

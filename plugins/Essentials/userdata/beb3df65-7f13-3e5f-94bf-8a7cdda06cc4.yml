@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1755088947316
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1755089480749
+  login: 1755089400646
+money: '0'
+last-account-name: DirtWalaDiamond
+lastlocation:
+  world: 6e7d72db-16de-4bb1-b46e-9509ef93c54a
+  world-name: world
+  x: -529.9404806843913
+  y: 82.40760119470784
+  z: 781.3806359637044
+  yaw: -167.96336364746094
+  pitch: 7.949793338775635
+logoutlocation:
+  world: 6e7d72db-16de-4bb1-b46e-9509ef93c54a
+  world-name: world
+  x: -415.01634975150984
+  y: 75.73692490775095
+  z: 666.0350150444939
+  yaw: -149.46005249023438
+  pitch: 34.79993438720703

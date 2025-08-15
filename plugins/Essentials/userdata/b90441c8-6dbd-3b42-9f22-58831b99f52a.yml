@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1754808839047
+  login: 1754808296908
+money: '0'
+last-account-name: GenX
+lastlocation:
+  world: 3a5e2f1d-fdd3-4774-88f0-3687abd2dbae
+  world-name: world
+  x: -3.5
+  y: 71.0
+  z: 1.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 3a5e2f1d-fdd3-4774-88f0-3687abd2dbae
+  world-name: world
+  x: 42.39594437119094
+  y: 70.0
+  z: -23.59175872713941
+  yaw: -146.70005798339844
+  pitch: 18.45000457763672

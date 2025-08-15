@@ -1,0 +1,39 @@
+location: world:-45.517:256.732:120.564
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 2
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: RED_DYE !ENCHANTED'
+    height: 0.6
+  - content: '&r'
+    height: 0.3
+  - content: '&u&lTOP DEATH'
+    height: 0.3
+  - content: '&e#1 &f&l%ajlb_lb_statistic_deaths_1_alltime_name% &d- &a$%ajlb_lb_statistic_deaths_1_alltime_value%'
+    height: 0.3
+  - content: '&e#2 &f&l%ajlb_lb_statistic_deaths_2_alltime_name% &d- &a$%ajlb_lb_statistic_deaths_2_alltime_value%'
+    height: 0.3
+  - content: '&e#3 &f&l%ajlb_lb_statistic_deaths_3_alltime_name% &d- &a$%ajlb_lb_statistic_deaths_3_alltime_value%'
+    height: 0.3
+  - content: '&e#4 &f&l%ajlb_lb_statistic_deaths_4_alltime_name% &d- &a$%ajlb_lb_statistic_deaths_4_alltime_value%'
+    height: 0.3
+  - content: '&e#5 &f&l%ajlb_lb_statistic_deaths_5_alltime_name% &d- &a$%ajlb_lb_statistic_deaths_5_alltime_value%'
+    height: 0.3
+  - content: '&e#6 &f&l%ajlb_lb_statistic_deaths_6_alltime_name% &d- &a$%ajlb_lb_statistic_deaths_6_alltime_value%'
+    height: 0.3
+  - content: '&e#7 &f&l%ajlb_lb_statistic_deaths_7_alltime_name% &d- &a$%ajlb_lb_statistic_deaths_7_alltime_value%'
+    height: 0.3
+  - content: '&e#8 &f&l%ajlb_lb_statistic_deaths_8_alltime_name% &d- &a$%ajlb_lb_statistic_deaths_8_alltime_value%'
+    height: 0.3
+  - content: '&e#9 &f&l%ajlb_lb_statistic_deaths_9_alltime_name% &d- &a$%ajlb_lb_statistic_deaths_9_alltime_value%'
+    height: 0.3
+  - content: '&e#10 &f&l%ajlb_lb_statistic_deaths_10_alltime_name% &d- &a$%ajlb_lb_statistic_deaths_10_alltime_value%'
+    height: 0.3
+  - content: '&f&lYOUR &a&lDEATH &d- &e&l$%statistic_deaths%'
+    height: 0.3
+  actions: {}
+

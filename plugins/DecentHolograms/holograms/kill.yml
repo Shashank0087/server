@@ -1,0 +1,40 @@
+alltimelocation: world:208.463:253.737:349.383
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '#ICON: REDSTONE !ENCHANTED'
+    height: 0.5
+  - content: '&r'
+    height: 0.3
+  - content: '&u&lTOP KILLS'
+    height: 0.3
+  - content: '&e#1. &f&l%ajlb_lb_statistic_player_kills_1_alltime_name% &d- &a%ajlb_lb_statistic_player_kills_1_alltime_value%'
+    height: 0.3
+  - content: '&e#2. &f&l%ajlb_lb_statistic_player_kills_2_alltime_name% &d- &a%ajlb_lb_statistic_player_kills_2_alltime_value%'
+    height: 0.3
+  - content: '&e#3. &f&l%ajlb_lb_statistic_player_kills_3_alltime_name% &d- &a%ajlb_lb_statistic_player_kills_3_alltime_value%'
+    height: 0.3
+  - content: '&e#4. &f&l%ajlb_lb_statistic_player_kills_4_alltime_name% &d- &a%ajlb_lb_statistic_player_kills_4_alltime_value%'
+    height: 0.3
+  - content: '&e#5. &f&l%ajlb_lb_statistic_player_kills_5_alltime_name% &d- &a%ajlb_lb_statistic_player_kills_5_alltime_value%'
+    height: 0.3
+  - content: '&e#6. &f&l%ajlb_lb_statistic_player_kills_6_alltime_name% &d- &a%ajlb_lb_statistic_player_kills_6_alltime_value%'
+    height: 0.3
+  - content: '&e#7. &f&l%ajlb_lb_statistic_player_kills_7_alltime_name% &d- &a%ajlb_lb_statistic_player_kills_7_alltime_value%'
+    height: 0.3
+  - content: '&e#8. &f&l%ajlb_lb_statistic_player_kills_8_alltime_name% &d- &a%ajlb_lb_statistic_player_kills_8_alltime_value%'
+    height: 0.3
+  - content: '&e#9. &f&l%ajlb_lb_statistic_player_kills_9_alltime_name% &d- &a%ajlb_lb_statistic_player_kills_9_alltime_value%'
+    height: 0.3
+  - content: '&e#10. &f&l%ajlb_lb_statistic_player_kills_10_alltime_name% &d- &a%ajlb_lb_statistic_player_kills_10_alltime_value%'
+    height: 0.3
+  - content: '&f&lYOUR &a&lKILLS &d- &e&l%statistic_player_kills%'
+    height: 0.3
+  actions: {}
+location: world:-37.526:256.743:120.512
+

@@ -1,0 +1,237 @@
+cooldown: 3600
+one_time: true
+auto_armor: false
+permission_required: true
+clear_inventory: false
+save_original_items: true
+allow_placeholders_on_original_items: false
+display:
+  default:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&fThis is a description of the kit.'
+    - ''
+    - '&7Edit it on the &c%kit_name%.yml &7file'
+    - '&7or using &c/kit edit %kit_name%'
+    item_flags:
+    - HIDE_ATTRIBUTES
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Cash-Note ","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"green"},{"text":"(Right-Click)","bold":false,"italic":false,"color":"gray"}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"Value:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"light_purple"},{"text":"
+          $15,000.00","italic":false}]}'
+        - '{"text":"","extra":[{"text":"Signer:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"light_purple"},{"text":"
+          OGGY___BHAIYA_","italic":false}]}'
+        custom-model-data:
+          ==: CustomModelData
+          floats:
+          - 0.0
+          flags: []
+          strings: []
+          colors: []
+        enchants:
+          minecraft:unbreaking: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        Damage: 0
+        custom: H4sIAAAAAAAA/+NiYGBkYEtyLkpMK2FkY+BMck4szvDLL0l1OOvDAAYA2pW+ISIAAAA=
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 2
+          minecraft:unbreaking: 2
+        repair-cost: 7
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 2
+          minecraft:unbreaking: 2
+        repair-cost: 7
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 2
+          minecraft:unbreaking: 2
+        repair-cost: 7
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        enchants:
+          minecraft:protection: 2
+          minecraft:unbreaking: 2
+        repair-cost: 7
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: DIAMOND
+      amount: 64
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+      amount: 6
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: GOLDEN_CARROT
+      amount: 64
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: EXPERIENCE_BOTTLE
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"","extra":[{"text":"Experience-Bottle ","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"green"},{"text":"(Throw)","bold":false,"italic":false,"color":"gray"}]}'
+        lore:
+        - '{"text":"","extra":[{"text":"Value:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"light_purple"},{"text":"
+          1,300 XP","italic":false}]}'
+        - '{"text":"","extra":[{"text":"Enchanter:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"light_purple"},{"text":"
+          OGGY___BHAIYA_","italic":false}]}'
+        custom-model-data:
+          ==: CustomModelData
+          floats:
+          - 0.0
+          flags: []
+          strings: []
+          colors: []
+        enchants:
+          minecraft:unbreaking: 1
+        ItemFlags:
+        - HIDE_ENCHANTS
+        Damage: 0
+        custom: H4sIAAAAAAAA/+NiYGBkYEtyLkpMK2FkY+BOCs8syUgpSiyPKHCYEsAABgB3cNnlJAAAAA==
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: WATER_BUCKET
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: DIAMOND_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:sharpness: 2
+          minecraft:unbreaking: 2
+        repair-cost: 3
+  '12':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: DIAMOND_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:smite: 2
+          minecraft:unbreaking: 2
+        repair-cost: 3
+  '13':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: DIAMOND_PICKAXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:fortune: 1
+          minecraft:unbreaking: 2
+        repair-cost: 3
+  '14':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: DIAMOND_HOE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:unbreaking: 2
+        repair-cost: 1
+  '15':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: DIAMOND_SHOVEL
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          minecraft:unbreaking: 2
+        repair-cost: 1
+  '16':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      v: 4189
+      type: GOLD_INGOT
+      amount: 64
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1755090632797
+  login: 1755087567253
+money: '0'
+last-account-name: freeboy
+lastlocation:
+  world: 6e7d72db-16de-4bb1-b46e-9509ef93c54a
+  world-name: world
+  x: -74.28110504374324
+  y: 252.0
+  z: 121.20816864956382
+  yaw: -143.6112518310547
+  pitch: 35.249996185302734
+logoutlocation:
+  world: 6e7d72db-16de-4bb1-b46e-9509ef93c54a
+  world-name: world
+  x: -411.6485788660431
+  y: 67.0
+  z: 658.7529489822572
+  yaw: -104.3106689453125
+  pitch: 12.599900245666504

@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "world",
+      "x": -75.5,
+      "y": 252.0,
+      "z": 123.5,
+      "yaw": -90.06314,
+      "pitch": -3.3000662
+    },
+    "npcType": "CREEPER",
+    "hologramLines": [
+      "&6&lSHOP"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "shop",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 2,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "world",
+      "x": -75.5,
+      "y": 252.0,
+      "z": 120.5,
+      "yaw": -89.97437,
+      "pitch": -8.850069
+    },
+    "npcType": "WITCH",
+    "hologramLines": [
+      "&6&lRandomTP"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "rtp",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 3,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "skinName": "Steve",
+    "location": {
+      "world": "world",
+      "x": -75.5,
+      "y": 252.0,
+      "z": 117.5,
+      "yaw": -88.173965,
+      "pitch": 18.29971
+    },
+    "npcType": "CREEPER",
+    "hologramLines": [
+      "&6&lKIIT"
+    ],
+    "refreshSkinDuration": 0,
+    "clickActions": [
+      {
+        "actionType": "CMD",
+        "clickType": "DEFAULT",
+        "action": "playerkits",
+        "delay": 0
+      }
+    ],
+    "npcEquip": {},
+    "npcFunctions": {
+      "look": true
+    },
+    "customizationMap": {}
+  }
+]
